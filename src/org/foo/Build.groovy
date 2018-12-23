@@ -1,6 +1,8 @@
 package org.foo
-class Utilities {
-  static def mvn(args) {
-     print "---------this it week----------work";
+class Build implements Serializable {
+  def steps
+  Utilities(steps) {this.steps = steps}
+  def mvn(args) {
+    print "---------this it week----------work";
   }
 }
