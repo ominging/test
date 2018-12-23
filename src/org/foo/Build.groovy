@@ -1,5 +1,5 @@
-package org.foo
-class Build implements Serializable {
+package org.foo.Build
+class Utilities implements Serializable {
   def steps
   Utilities(steps) {this.steps = steps}
   def mvn(args) {
